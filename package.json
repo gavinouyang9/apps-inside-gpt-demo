@@ -1,0 +1,14 @@
+{
+  "name": "apps-inside-gpt-demo",
+  "version": "1.0.0",
+  "description": "Project containing multiple app demos",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "vite": "^5.0.8",
+    "@vitejs/plugin-react": "^4.2.1",
+    "crypto": "^1.0.1"
+  }
+}
