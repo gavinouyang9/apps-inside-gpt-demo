@@ -1,0 +1,20 @@
+{
+  "name": "todo-app-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for serving todo-app resources",
+  "type": "module",
+  "scripts": {
+    "start": "tsx server.ts",
+    "dev": "tsx server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "keywords": ["mcp", "server", "todo"],
+  "author": "",
+  "license": "MIT"
+}
